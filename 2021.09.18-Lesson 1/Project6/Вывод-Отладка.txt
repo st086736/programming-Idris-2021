@@ -1,0 +1,21 @@
+﻿"Project9.exe" (Win32). Загружено "C:\Users\User\Desktop\прог 1\Project1\Debug\Project9.exe". Символы загружены.
+"Project9.exe" (Win32). Загружено "C:\Windows\SysWOW64\ntdll.dll". 
+"Project9.exe" (Win32). Загружено "C:\Windows\SysWOW64\kernel32.dll". 
+"Project9.exe" (Win32). Выгружено "C:\Windows\SysWOW64\kernel32.dll"
+"Project9.exe" (Win32). Загружено "C:\Windows\SysWOW64\kernel32.dll". 
+"Project9.exe" (Win32). Загружено "C:\Windows\SysWOW64\KernelBase.dll". 
+"Project9.exe" (Win32). Загружено "C:\Windows\SysWOW64\msvcp140d.dll". 
+"Project9.exe" (Win32). Загружено "C:\Windows\SysWOW64\vcruntime140d.dll". 
+"Project9.exe" (Win32). Загружено "C:\Windows\SysWOW64\ucrtbased.dll". 
+Поток 0x41c8 завершился с кодом 0 (0x0).
+"Project9.exe" (Win32). Загружено "C:\Windows\SysWOW64\kernel.appcore.dll". 
+"Project9.exe" (Win32). Загружено "C:\Windows\SysWOW64\msvcrt.dll". 
+"Project9.exe" (Win32). Загружено "C:\Windows\SysWOW64\rpcrt4.dll". 
+"Project9.exe" (Win32). Загружено "C:\Windows\SysWOW64\sspicli.dll". 
+"Project9.exe" (Win32). Загружено "C:\Windows\SysWOW64\cryptbase.dll". 
+"Project9.exe" (Win32). Загружено "C:\Windows\SysWOW64\bcryptprimitives.dll". 
+"Project9.exe" (Win32). Загружено "C:\Windows\SysWOW64\sechost.dll". 
+Поток 0x2e24 завершился с кодом 0 (0x0).
+Поток 0x20a4 завершился с кодом 0 (0x0).
+Поток 0x4050 завершился с кодом 0 (0x0).
+Программа "[13084] Project9.exe" завершилась с кодом 0 (0x0).
