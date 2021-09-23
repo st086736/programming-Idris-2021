@@ -1,0 +1,4 @@
+﻿1>------ Build started: Project: Project4, Configuration: Debug Win32 ------
+1>  Project4.vcxproj -> W:\2021.09.16-Lesson-1\Debug\Project4.exe
+1>  Project4.vcxproj -> W:\2021.09.16-Lesson-1\Debug\Project4.pdb (Partial PDB)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
