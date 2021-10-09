@@ -11,9 +11,15 @@ int main(int arge, char* argv[])
     cin >> n >> k;
     C = 1;
     for (int i = n - k + 1; i <= n; i++)
-        C *= i;
-    for (int i = 2; i <= k; i++)
-        C /= i;
-    cout  << C << endl;
+    {
+        {
+            C *= i;
+        }
+        for (int i = 2; i <= k; i++)
+        {
+            C /= i;
+        }
+        cout << C << endl;
+    }
     return EXIT_SUCCESS;
 }

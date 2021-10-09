@@ -13,5 +13,6 @@ int main(int arge, char* argv[])
 		factorial *= i; ++i;
 	}
 	cout << factorial ;
+
 	return EXIT_SUCCESS;
 }
