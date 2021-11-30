@@ -9,18 +9,22 @@ int main(int argc, char* argv[])
 	int n = 0;
 
 	cin >> k >> m >> n;
-	if (k >= n)
-	{
-		cout << 2 * m << endl;
-	}
-	if (k < n && n % k != 0)
-	{
-		cout << ((n / k) + 1) * 2 * m << endl;
-	}
+
 	if (n % k == 0)
 	{
-		cout << (n / k) * 2 * m << endl;
+		cout << 2 * m * n / k;
 	}
-	return EXIT_SUCCESS;
+	else
+	{
+		if (n % k <= k / 2)
+		{
+			cout << m * ((n / k) * 2 + 1);
+		}
+		else
+		{
+			cout << m * ((n / k) * 2 + 2);
+		}
+	}
 
+	return EXIT_SUCCESS;
 }

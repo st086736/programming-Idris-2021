@@ -8,13 +8,13 @@ int main(int argc, char* argv[])
 	int m = 0;
 	int k = 0;
 	cin >> n >> m >> k;
-	if (k % n == 0 || k % m == 0)
+	if (n * m >= k && k % n == 0 || k % m == 0)
 	{
-		cout << "YES" << endl;
+		cout << "YES";
 	}
 	else
 	{
-		cout << "NO" << endl;
+		cout << "NO";
 	}
 	return EXIT_SUCCESS;
 }

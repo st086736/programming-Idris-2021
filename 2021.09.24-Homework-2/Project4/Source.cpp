@@ -1,7 +1,5 @@
 #include <iostream>
 
-#include <math.h>
-
 using namespace std;
 
 int main(int argc, char* argv[])
@@ -11,17 +9,34 @@ int main(int argc, char* argv[])
 	int c = 0;
 	int d = 0;
 	cin >> a >> b >> c >> d;
-	if (a == 0 && b==0)
+	if (c == 0 && d == 0)
 	{
-		cout << "INF" << endl;
+		cout << "NO" << endl;
 	}
-	if (a * d == b * c && a!=0 && b!=0)
+	else
 	{
-		cout << "NO" <<endl;
-	} 
-	if (b % a == 0 && a * d != b * c)
-	{
-		cout << -b / a << endl;
+		if (a == 0 && b == 0)
+		{
+			cout << "INF" << endl;
+		}
+		else
+		{
+			if (b % a == 0)
+			{
+				if (a * d == b * c)
+				{
+					cout << "NO" << endl;
+				}
+				else
+				{
+					cout << -b / a << endl;
+				}
+			}
+			else
+			{
+				cout << "NO" << endl;
+			}
+		}
 	}
-	return 0;
+	return EXIT_SUCCESS;
 }
